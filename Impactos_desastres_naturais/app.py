@@ -124,7 +124,7 @@ if pagina == "Contexto":
         """)
 
     with col2:
-        st.image("./desastres/atlas.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/desastres/atlas.png", use_container_width=True)
 
     st.markdown("---")
 
@@ -135,7 +135,7 @@ if pagina == "Contexto":
     col3, col4 = st.columns([1, 2])
 
     with col3:
-        st.image("./desastres/desastre_4.jfif", width=230)
+        st.image("Impactos_desastres_naturais/desastres/desastre_4.jfif", width=230)
 
     with col4:
         st.subheader("Contexto Científico")
@@ -185,7 +185,7 @@ if pagina == "Contexto":
         """)
 
     with col6:
-        st.image("./desastres/desastre_3.jfif", width=250)
+        st.image("Impactos_desastres_naturais/desastres/desastre_3.jfif", width=250)
 
     st.markdown("---")
 
@@ -203,10 +203,10 @@ elif pagina == "Graficos":
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("./graficos/grafico_pizza.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/graficos/grafico_pizza.png", use_container_width=True)
 
     with col2:
-        st.image("./graficos/barra_linha_tempo.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/graficos/barra_linha_tempo.png", use_container_width=True)
 
     st.write("""
     O primeiro grafico mostra qual a dominancia de casos em relação aos desastres,
@@ -227,10 +227,10 @@ elif pagina == "Graficos":
     col3, col4 = st.columns(2)
 
     with col3:
-        st.image("./graficos/barra_suldeste.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/graficos/barra_suldeste.png", use_container_width=True)
 
     with col4:
-        st.image("./graficos/barra_prejuizo.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/graficos/barra_prejuizo.png", use_container_width=True)
 
     st.write("""
     Conforme a equipe foi realizando a limpeza dos dados, chegamos na conclusão que a região sudeste
@@ -251,10 +251,10 @@ elif pagina == "Graficos":
     col5, col6 = st.columns(2)
 
     with col5:
-        st.image("./graficos/unidades_senai_quantidade.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/graficos/unidades_senai_quantidade.png", use_container_width=True)
 
     with col6:
-        st.image("./graficos/grafico_senai_cidades.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/graficos/grafico_senai_cidades.png", use_container_width=True)
 
     st.write("""
     Essa etapa foi realizada com a intenção de deixar as informações e os dados mais completos, então
@@ -276,10 +276,10 @@ elif pagina == "Graficos":
     col7, col8 = st.columns(2)
 
     with col7:
-        st.image("./graficos/mapa_correlacao.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/graficos/mapa_correlacao.png", use_container_width=True)
 
     with col8:
-        st.image("./graficos/corelacao_tempo.png", use_container_width=True)
+        st.image("Impactos_desastres_naturais/graficos/corelacao_tempo.png", use_container_width=True)
 
     st.write("""
     Por fim foi realizado um texte matematico chamado correlação de person para comprovar se o numero
@@ -311,7 +311,7 @@ elif pagina == "Documentos":
         """)
 
     with col2:
-        st.image("./grupo.jfif", use_container_width=True)
+        st.image("Impactos_desastres_naturais/grupo.jfif", use_container_width=True)
 
     st.markdown("---")
 
