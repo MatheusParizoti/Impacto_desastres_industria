@@ -324,14 +324,14 @@ elif pagina == "Documentos":
     st.write("O documento completo do estudo pode ser visualizado abaixo:")
 
     # Se for PDF
-    with open("./arquivo_original_impactos_setor_industrial.pdf", "rb") as file:
+    with open("Impactos_desastres_naturais/arquivo_original_impactos_setor_industrial.pdf", "rb") as file:
         st.download_button(
             label="Baixar Documento Completo",
             data=file,
             file_name="Artigo_Desastres_Industria.pdf",
             mime="application/pdf"
         )
-    with open("./SENAI_Suico_Brasileira.pdf", "rb") as file:
+    with open("Impactos_desastres_naturais/SENAI_Suico_Brasileira.pdf", "rb") as file:
         st.download_button(
             label="Baixar Banner",
             data=file,
@@ -353,7 +353,7 @@ elif pagina == "Documentos":
     with col3:
         st.markdown("### Base de Dados")
 
-        with open("./df_reduzido.xlsx", "rb") as file:
+        with open("Impactos_desastres_naturais/df_reduzido.xlsx", "rb") as file:
             st.download_button(
                 label="Baixar Base Atlas",
                 data=file,
@@ -365,7 +365,7 @@ elif pagina == "Documentos":
     with col4:
         st.markdown("### Base de Dados Senai")
 
-        with open("./unidades_senai.xlsx", "rb") as file:
+        with open("Impactos_desastres_naturais/unidades_senai.xlsx", "rb") as file:
             st.download_button(
                 label="Baixar Base Senai",
                 data=file,
